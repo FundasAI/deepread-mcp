@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deepread": {
+      "type": "http",
+      "url": "https://riseiq-bigcommerce-production.up.railway.app/mcp"
+    }
+  }
+}
