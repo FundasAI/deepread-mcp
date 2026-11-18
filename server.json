@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.fundas/deepread",
+  "title": "Deepread",
+  "description": "Customer intelligence for BigCommerce: churn risk, customer value, reorders, upsell, B2B accounts.",
+  "websiteUrl": "https://riseiq-bigcommerce-production.up.railway.app/connect-ai",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://riseiq-bigcommerce-production.up.railway.app/static/deepread-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://riseiq-bigcommerce-production.up.railway.app/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "support": "deepread@fundas.ai",
+      "documentation": "https://riseiq-bigcommerce-production.up.railway.app/connect-ai",
+      "privacy_policy": "https://www.fundas.ai/privacy",
+      "terms_of_service": "https://www.fundas.ai/terms-conditions",
+      "install": "https://www.bigcommerce.com/apps/riseiq/",
+      "authentication": "OAuth 2.1. Requires the Deepread app on a BigCommerce store (free trial). Click Connect, open Deepread in BigCommerce and click Allow."
+    }
+  }
+}
